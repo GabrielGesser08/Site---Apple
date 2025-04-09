@@ -12,6 +12,7 @@ body{
 :root{
     --preto: #0000;
     --cinza: #959595;
+    --cards: rgb(228, 228, 228);
 }
 
 
@@ -84,7 +85,22 @@ a:link {
     color: var(--cinza);
 }
 
+.cards{
+    display: flex;
+    margin-left: 8.5rem;
+    margin-inline: 3rem;
+}
+
 .img{
+    margin-top: 4rem;
+    margin-inline: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:var(--cards);
+    box-shadow: 5px 5px 20px var(--cinza);
+    width: 40rem;
+    height: 10rem;
     justify-content: space-between;
     cursor: pointer;
+    
 }
