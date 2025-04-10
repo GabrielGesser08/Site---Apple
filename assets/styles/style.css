@@ -6,7 +6,7 @@
 
 body{
     background-color: #f6f4f4;
-    height: 200vh;
+    height: 400vh;
 }
 
 :root{
@@ -91,6 +91,12 @@ a:link {
     margin-inline: 3rem;
 }
 
+.scroll-horizontal {
+    overflow-x: auto; /* Adiciona rolagem horizontal */
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+
 .img{
     margin-top: 4rem;
     margin-inline: 1rem;
@@ -98,9 +104,11 @@ a:link {
     border-radius: 1rem;
     background-color:var(--cards);
     box-shadow: 5px 5px 20px var(--cinza);
-    width: 40rem;
-    height: 10rem;
-    justify-content: space-between;
+    width: 25rem;
+    height: 30rem;
     cursor: pointer;
-    
 }
+
+
+
+
