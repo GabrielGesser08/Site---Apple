@@ -15,7 +15,7 @@ body{
     --cards: rgb(247, 246, 246);
 }
 
-
+/*header/cabeçalho*/
 .cabecalho{
     margin-top: 1rem;
     justify-content: space-evenly;
@@ -29,6 +29,8 @@ a:link {
     background-color: transparent;
 }
 
+
+/*título principal*/
 .space{
     font-family:sans-serif;
     display: flex;
@@ -36,6 +38,14 @@ a:link {
     justify-content: space-around;
 }
 
+.text01{
+    font-family:sans-serif;
+    font-size: 35px;
+    color: var(--cinza)
+}
+
+
+/*seções de ajuda*/
 .perfilHelp{
     display: flex;
 }
@@ -54,17 +64,10 @@ a:link {
     margin-left: -9rem;
 }
 
-.text01{
-    font-family:sans-serif;
-    font-size: 35px;
-    color: var(--cinza)
-}
 
-.centralizarImg{
-    display: flex;
-    justify-content: center;
-}
 
+
+/*tipos de produtos*/
 .aparelhos{
     display: flex;
     justify-content: space-evenly;
@@ -73,19 +76,16 @@ a:link {
     
 }
 
-.novidades{
-    margin-top: 9rem;
+.centralizarImg{
     display: flex;
-    margin-left: 8.5rem;
-    font-size: 30px;
-    font-weight: 700;
-    font-family:sans-serif;
+    justify-content: center;
 }
 
-.text-novidades{
-    color: var(--cinza);
-}
 
+
+
+
+/*cards dos produtos/novidades*/
 .cards{
     display: flex;
     margin-left: 8.5rem;
@@ -100,51 +100,68 @@ a:link {
 
 
 .card01{
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     margin-inline: 1.5rem;
     border: none;
     border-radius: 1rem;
     color: #f6f4f4;
     background-color: #000;
     box-shadow: 5px 5px 20px var(--cinza);
-    width: 32rem;
-    height: 42rem;
+    width: 25rem;
+    height: 36rem;
     cursor: pointer;
 }
 
 .imagem{
-    margin-right: 2rem;
-    margin-top: -6rem;
+    margin-right: .5rem;
+    margin-top: -5rem;
 }
 
 .title-card{
     display: block;
-    margin-top: -32rem;
-    margin-right: 20rem;
+    margin-top: -30rem;
+    margin-right: 14rem;
     font-size: 30px;
 }
 
 .subtitle-card{
     display: block;
-    margin-right: 14.5rem;
+    margin-right: 10.5rem;
     margin-top: 1rem;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 .valor{
     display: block;
-    margin-right: 15rem;
+    margin-right: 10.5rem;
     margin-top: 1rem;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
+
+
+
+/*título dos cards de orientação*/
+.novidades{
+    margin-top: 9rem;
+    display: flex;
+    margin-left: 8.5rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+.text-novidades{
+    color: var(--cinza);
+}
+
+/*cards de orientação*/
 .cards1{
-    
-        display: flex;
-        margin-left: 8.5rem;
-        margin-inline: 7rem;
+    display: flex;
+    margin-left: 8.5rem;
+    margin-inline: 7rem;
 }
-
 
 .card02{
     margin-top: 4rem;
@@ -176,3 +193,51 @@ a:link {
 .imagem2{
     margin-top: 4rem;
 }
+
+
+/*Título dos cards de benefícios*/
+
+.titulo-benefícios{
+    margin-top: 9rem;
+    display: flex;
+    margin-left: 8.5rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+
+.text-beneficios{
+    color: var(--cinza);
+}
+
+.cards-beneficios{
+    display: flex;
+    margin-left: 8.5rem;
+    margin-inline: 7rem;
+}
+
+.card03{
+    margin-top: 1rem;
+    margin-inline: .5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--cards);
+    box-shadow: 5px 5px 20px var(--cinza);
+    width: 22rem;
+    height: 16rem;
+    cursor: pointer;
+}
+
+.icones{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-top: -6rem;
+}
+
+.title-card-beneficio{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
